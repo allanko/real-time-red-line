@@ -5,7 +5,7 @@ This is a multithreaded program which visualizes the motions of trains on the Ma
 
 The architecture and software requirements are detailed in `documentation-final.pdf`. In brief, the APIreader thread repeatedly queries the MBTA API and updates a `trains` dictionary, which contains train IDs and position information for every train currently on the Red Line. The VehicleController thread reads from the `trains` variable and updates the position and speed of the GroundVehicle to match the incoming data. Simulator reads the GroundVehicle positions, sends the GroundVehicle information to the DisplayClient (which forwards it for display on the DisplayServer), and increments an internal clock. GroundVehicle reads from that internal clock and extrapolates each subway car's motion between API calls.
 
-Note that when you run this, it will look incredibly boring and slow. But realize that each little triangle represents a massive subway train trundling through Boston in real-time.
+Note that when you run this, it will look incredibly boring and slow. But realize that each little triangle represents a massive subway train trundling through Boston in real-time. If you don't want to download and run it yourself, check out the little sample video I included, `allanko-redlinevisualizer-demo.mp4`.
 
 ## Run Instructions
 1. Load all files into your directory of choice
