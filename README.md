@@ -7,8 +7,6 @@ The architecture and software requirements are detailed in `documentation-final.
 
 Note that when you run this, it will look incredibly boring and slow. But realize that each little triangle represents a massive subway train trundling through Boston in real-time.
 
-And yes, I know it's kind of weird to write a threaded program in Python. But for whatever reason, that's the language MIT decided to teach a real-time programming class in.
-
 ## Run Instructions
 1. Load all files into your directory of choice
 2. Open two command prompts and navigate to your directory in both.
